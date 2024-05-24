@@ -2,7 +2,7 @@
   "name": "casapetcampinas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://casapetcampinas.com.br",
+  "homepage": "http://casapetcampinas.com.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
