@@ -37,7 +37,29 @@ p {
 }
 
 .App-link:hover {
-  color: #242154;
+  color: #242154; /* Nova cor para o hover */
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #ffffff; /* Cor de fundo branca */
+  color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 600px) {
@@ -48,5 +70,11 @@ p {
   p {
     font-size: 1.2rem;
   }
-}
 
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
